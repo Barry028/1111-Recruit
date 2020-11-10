@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.5" height="66.5" viewBox="0 0 66.5 66.5">
+  <g id="icon_19" transform="translate(1 1)">
+    <circle id="Ellipse_1_copy_4" cx="32.25" cy="32.25" r="32.25" fill="#fff" stroke="#e9ebec" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="copy-content" transform="translate(17 14)">
+      <path id="Shape" d="M27.737,36H9.789a3.272,3.272,0,0,1-3.263-3.272V9.818A3.272,3.272,0,0,1,9.789,6.546H27.737A3.271,3.271,0,0,1,31,9.818v22.91A3.271,3.271,0,0,1,27.737,36ZM9.789,9.818v22.91H27.737V9.818ZM3.263,26.182H0V3.272A3.272,3.272,0,0,1,3.263,0H22.842V3.272H3.263V26.181Z" fill="#585b60"/>
+    </g>
+  </g>
+</svg>

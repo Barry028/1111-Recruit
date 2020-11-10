@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_4" transform="translate(-301 -496)">
+    <g id="star" transform="translate(305 501)">
+      <path id="Path" d="M20.946.621l5.088,11.906L39.06,13.634a1.013,1.013,0,0,1,.585,1.778l-9.88,8.463,2.961,12.591a1.023,1.023,0,0,1-1.53,1.1L20,30.89,8.807,37.565a1.024,1.024,0,0,1-1.53-1.1l2.961-12.591L.356,15.41a1.013,1.013,0,0,1,.585-1.778l13.026-1.106L19.055.621A1.03,1.03,0,0,1,20.946.621Z" fill="#585b60"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(301 496)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+  </g>
+</svg>

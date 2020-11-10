@@ -1,0 +1,12 @@
+<svg id="warning_2_" data-name="warning (2)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #248dc1;
+      }
+    </style>
+  </defs>
+  <path id="Path_9756" data-name="Path 9756" class="cls-1" d="M60,0a60,60,0,1,0,60,60A60.068,60.068,0,0,0,60,0Zm0,115.385A55.385,55.385,0,1,1,115.385,60,55.449,55.449,0,0,1,60,115.385Z"/>
+  <path id="Path_9757" data-name="Path 9757" class="cls-1" d="M27.308,10A2.307,2.307,0,0,0,25,12.308V63.077a2.308,2.308,0,0,0,4.615,0V12.308A2.307,2.307,0,0,0,27.308,10Z" transform="translate(32.692 13.077)"/>
+  <path id="Path_9758" data-name="Path 9758" class="cls-1" d="M27.308,37A2.307,2.307,0,0,0,25,39.308v4.615a2.308,2.308,0,1,0,4.615,0V39.308A2.307,2.307,0,0,0,27.308,37Z" transform="translate(32.692 48.385)"/>
+</svg>

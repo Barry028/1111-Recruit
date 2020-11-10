@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 求才招募系統 - 員工滿意度調查</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=1">
+    <meta name="Keywords" content="徵才,徵人,求才,人才,企業徵才,企業求才,找人才,人才查詢">
+    <meta name="Description" content="企業徵才求才可使用1111求才招募系統，查詢符合需求的人才。一個帳號控管部門、分店徵才權限，15項職能力報告讓你先一步瞭解求職者，徵人、找人才只要設定好職缺條件就可快速收到適合的人才名單！">
+    <meta name="keywords" content="人力銀行,求職,徵才,工作,求職網,jobbank,job">
+    <meta property="og:title" content="1111人力銀行｜求職找工作、工作找人才的求職網">
+    <meta property="og:description" content="1111人力銀行徵才求職的最佳選擇，榮獲2018年人力銀行服務業金牌大獎，提供最貼心的求才求職服務。現推出富酬者大聯盟魔鬼訓練營，讓新鮮人起薪多1萬、年輕人加薪30%以上不再是夢。求職速上1111人力銀行，為自己加薪。">
+    <meta property="og:image" content="https://www.1111.com.tw/talents/MicroBlogging/images/facebook_banner01.jpg">
+    <meta property="og:url" content="https://recruit.1111.com.tw/">
+    <!-- Favicon -->
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="vender/normalize.css">
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/animate.css">
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="vender/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <!--[if lte IE 8]>-->
+    <!--         <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script> -->
+    <!--<![endif]-->
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="push-left">
+                        <a href="index.html" class="text--inverse text--600">1111 招募管理系統</a>
+                        <a href="https://www.1111.com.tw/">1111 人力銀行</a>
+                        <a href="#!" id="service">線上客服</a>
+                        <a href="#!" id="IP">IP 查詢</a>
+                    </div>
+                    <div class="push-right">
+                        <a href="satisfaction.html">員工滿意度調查</a>
+                        <a href="https://www.1111.com.tw/help/service.asp" target="_blank">常見問題</a>
+                        <a href="contactus.html">聯絡我們</a>
+                        <a href="login.html">登入</a>
+                        <a href="price.html" class="text--red">刊登徵才廣告</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="logo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 hidden-sm">
+                        <div class="logo">
+                            <div class="glow"></div>
+                            <a href="index.html" title="1111人力銀行-求職找工作、企業徵才的領導品牌">
+                                <img src="img/1111.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 hidden-sm">
+                        <ul class="contact">
+                            <li>
+                                <span class="push-right">
+                                <label class="gruoup">
+                                    <img src="img/1_index/svg/telephone.svg" alt="" class="svg-24 mr-16">
+                                </label>
+                                <label class="gruoup">
+                                    <h3>聯絡電話</h3>
+                                    <a href="tel:0287871111">(02) 8787-1111</a>
+                                </label>
+                            </span>
+                            </li>
+                            <li>
+                                <address class="push-right">
+                                    <label class="gruoup">
+                                        <img src="img/1_index/svg/envelope.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌" class="svg-24 mr-16">
+                                    </label>
+                                    <label class="gruoup">
+                                        <h3>客服信箱</h3>
+                                        <a href="mailto:hr1111@staff.1111.com.tw">Hr1111@staff.1111.com.tw</a>
+                                    </label>
+                                </address>
+                            </li>
+                            <li>
+                                <span class="push-right">
+                                <label class="gruoup">
+                                    <img src="img/1_index/svg/alarm-clock.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌" class="svg-24 mr-16">
+                                </label>
+                                <label class="gruoup">
+                                    <h3>服務時間</h3>
+                                    <time>週一 ~ 五 8:30 - 6:00</time>
+                                </label>
+                            </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <ul id="popup-menu" class="menu">
+                        <li class="menu-item hidden-sm-up">
+                            <img src="img/1111-white.svg" alt="1111" class="logo">
+                            <a href="login.html" class="login-link text-right">註冊 / 登入</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html">
+                                <img src="img/burger/bur-1.svg" alt="首頁" class="svg-24 mr-40 hidden-sm-up">首頁
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="productservice.html">
+                                <img src="img/burger/bur-2.svg" alt="產品服務" class="svg-24 mr-40 hidden-sm-up">產品服務
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="vipsystem.html">
+                                <img src="img/burger/bur-3.svg" alt="VIP求才招募系統" class="svg-24 mr-40 hidden-sm-up">VIP求才招募系統
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="1HrSystem.html">
+                                <img src="img/burger/bur-4.svg" alt="1HR人資管理系統" class="svg-24 mr-40 hidden-sm-up">1HR人資管理系統
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="talentapp.html">
+                                <img src="img/burger/bur-5.svg" alt="找人才 App" class="svg-24 mr-40 hidden-sm-up">找人才 App
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="trialsearch.html">
+                                <img src="img/burger/bur-6.svg" alt="人才試搜" class="svg-24 mr-40 hidden-sm-up">人才試搜
+                            </a>
+                        </li>
+                        <li class="menu-item-post">
+                            <a href="price.html">
+                                <img src="img/burger/bur-7.svg" alt="我要刊登" class="svg-24 mr-40 hidden-sm-up">我要刊登
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="allservice.html" class="active">
+                                <img src="img/burger/bur-8.svg" alt="廠商相關服務" class="svg-24 mr-40 hidden-sm-up">員工滿意度調查
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="#!" id="service_mobile">
+                                <img src="img/burger/bur-9.svg" alt="線上客服" class="svg-24 mr-40 hidden-sm-up">線上客服
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="contactus.html">
+                                <img src="img/burger/bur-11.svg" alt="聯絡我們" class="svg-24 mr-40 hidden-sm-up">聯絡我們
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="#!" id="ip_mobile">
+                                <img src="img/burger/bur-10.svg" alt="IP 查詢" id="ip_mobile" class="svg-24 mr-40 hidden-sm-up">IP 查詢
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="https://www.1111.com.tw/help/service.asp" target="_blank">
+                                <img src="img/burger/bur-12.svg" alt="常見問題" class="svg-24 mr-40 hidden-sm-up">常見問題
+                            </a>
+                        </li>
+                        <a href="#!" class="close-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </ul>
+                    <div class="mobile-nav">
+                        <a href="#popup-menu" class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="index.html">
+                            <img src="img/1111-white.svg" alt="1111人力銀行">
+                            </a>
+                        <a href="login.html">登入</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <article class="main">
+    <section class="hero">
+        <div class="container wow fadeInDown">
+            <h1 class="pb-8">員工滿意度調查</h1>
+            <h2 class="pt-8">員工滿意度是企業的指南針，有滿意的員工才有滿意的客戶。員工滿意度調查是企業與員工的橋樑，可了解員工需求、檢視公司營運管理狀況，找出管理上的問題並加以改進，提升員工幸福感與向心力進而增進企業競爭力！</h2>
+        </div>
+    </section>
+    <section class="satisfaction">
+        <div class="container bg-satisfaction">
+            <div class="row">
+                <div class="satisfaction-title wow fadeInDown">
+                    <h1><img src="img/satisfaction/title.svg" alt="title" class="svg-32">為什麼要做 <font class="text--tea text--36">員工滿意度調查</font>？</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="satisfaction-content satisfaction-line">
+                        <div class="left-box wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                            <img src="img/satisfaction/box-1.svg" alt="" class="box-img push-right ml-4">
+                            <div class="box-content">
+                                <h2><img src="img/satisfaction/one.svg" alt="" class="svg-24 mr-8 mb-4">企業提升競爭力的核心</h2>
+                                <p>員工滿意度是員工對於企業的忠誠度、凝聚力、歸屬感的綜合指標。</p>
+                                <p>透過員工對於組織現況的觀感，提出相對應的改善方案，可大幅提升員工的團隊精神、穩定性與忠誠度，降低抱怨率與離職率。</p>
+                            </div>
+                        </div>
+                        <div class="right-box wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                            <img src="img/satisfaction/box-2.svg" alt="" class="box-img push-left mr-4">
+                            <div class="box-content">
+                                <h2><img src="img/satisfaction/two.svg" alt="" class="svg-24 mr-8 mb-4">客戶滿意的保證</h2>
+                                <p>企業如何對待員工，員工就如何對待客戶！</p>
+                                <p>員工對公司的滿意度調查，等於是企業經營者最好的經營回饋指標。</p>
+                            </div>
+                        </div>
+                        <div class="left-box wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                            <img src="img/satisfaction/box-3.svg" alt="" class="box-img push-right ml-4">
+                            <div class="box-content">
+                                <h2><img src="img/satisfaction/three.svg" alt="" class="svg-24 mr-8 mb-4">企業內部管理改善的基礎</h2>
+                                <p>員工滿意度調查可了解員工需求，找出管理上的問題並且加以改進。</p>
+                                <p>針對問題處共同討論，制定改進的計劃，更可提高對公司的滿意度和信任度。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="satisfaction bg--grey">
+        <div class="container">
+            <div class="row">
+                <div class="satisfaction-title wow fadeInDown">
+                    <h1><img src="img/satisfaction/title.svg" alt="title" class="svg-32"><font class="text--tea text--36">員工滿意度</font> 為什麼重要？</h1>
+                </div>
+            </div>
+            <div class="satisfaction-content">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="satisfaction-card">
+                        <h2>可提升員工</h2>
+                        <ul>
+                            <li>● 對公司的認同感、信任感與忠誠度</li>
+                            <li>● 對工作本身的興趣</li>
+                            <li>● 工作目標達成率</li>
+                            <li>● 工作動力</li>
+                            <li>● 紀律</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="satisfaction-card">
+                        <h2>可提升企業</h2>
+                        <ul>
+                            <li>● 顧客滿意度</li>
+                            <li>● 營利績效</li>
+                            <li>● 產品品質</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 hidden-md wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">
+                    <div class="circle-text">
+                        <h3>良好的<br>員工滿意度</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="satisfaction-card satisfaction-card-white">
+                        <h2 class="card--bg--grey">可降低</h2>
+                        <ul class="bg--lightgrey text--white">
+                            <li>● 人員流動率</li>
+                            <li>● 客訴案件</li>
+                            <li>● 員工抱怨量</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row hidden-md">
+                <div class="col-lg-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s">
+                    <img src="img/satisfaction/arrow-1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="satisfaction">
+        <div class="container">
+            <div class="row">
+                <div class="satisfaction-title wow fadeInDown">
+                    <h1><img src="img/satisfaction/title.svg" alt="title" class="svg-32">專為台灣職場打造的 <font class="text--tea text--36">專屬問卷</font></h1>
+                </div>
+            </div>
+            <div class="satisfaction-content">
+                <p class="text--18 text--grey wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">1111 員工滿意度量表有效降低直譯的國外量表的文化差異、年代隔閡、缺乏標準之問題。</p>
+                <div class="row">
+                    <div class="survey-row wow fadeInDown">
+                        <div class="satisfaction-text">
+                            <h2>
+                                <img src="img/satisfaction/one.svg" alt="" class="svg-24 mr-8">降低文化差異
+                            </h2>
+                            <p>常見量表多以歐美國家為背景編製，未考慮不同文化下的溝通、理解差異，在翻譯上也容易有所偏誤。</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="satisfaction-img">
+                                    <img src="img/satisfaction/img-1.svg" alt="降低文化差異" class="survey-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="middle-block">
+                                    <div class="satisfaction-text-block">
+                                        <h3><img src="img/satisfaction/checked1.svg" alt="" class="svg-24 mr-8">1111員工滿意度調查...</h3>
+                                        <p>● 100%中文研發，消除翻譯品質的落差。</p>
+                                        <p>● 符合台灣社經文化的專屬問卷內容。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="survey-row wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="satisfaction-text">
+                            <h2><img src="img/satisfaction/two.svg" alt="" class="svg-24 mr-8">消除年代隔闔</h2>
+                            <p>常見使用的員工滿意度調查量表多為 60 年代建構的明尼蘇達滿意度量表（MSQ, 1967）和工作滿意指數量表（IJS, 1969），未考量產業結構的改變與社經發展的變數。</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="satisfaction-img">
+                                    <img src="img/satisfaction/img-2.svg" alt="消除年代隔闔" class="survey-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="satisfaction-text-block">
+                                    <h3><img src="img/satisfaction/checked1.svg" alt="" class="svg-24 mr-8">1111員工滿意度調查...</h3>
+                                    <p>經過1年專業研發，全新上線。</p>
+                                    <p>最新題庫，契合時下的職場情境。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="survey-row wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="satisfaction-text">
+                            <h2><img src="img/satisfaction/three.svg" alt="" class="svg-24 mr-8">增加比對標準</h2>
+                            <p>傳統量表若想和大環境進行常模比較，未能有單一標準參考，無法確實反映員工在各項目上的相對程度。</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="satisfaction-img">
+                                    <img src="img/satisfaction/img-3.svg" alt="增加比對標準" class="survey-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="satisfaction-text-block">
+                                    <h3><img src="img/satisfaction/checked1.svg" alt="" class="svg-24 mr-8">1111員工滿意度調查...</h3>
+                                    <p>調查題庫統一，提供各層面滿意度均值做為企業參考依據。</p>
+                                    <p>動態常模，忠實反映各產業/職務上班族的滿意度。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="satisfaction bg--grey">
+        <div class="container">
+            <div class="row">
+                <div class="satisfaction-title wow fadeInDown">
+                    <h1><img src="img/satisfaction/title.svg" alt="title" class="svg-32">1111 <font class="text--tea text--36">員工滿意度調查</font> 內容涵蓋</h1>
+                </div>
+                <div class="satisfaction-content">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="satisfaction-card">
+                                <h2>工作滿意度</h2>
+                                <ul class="center">與工作職務(職責)本身相關項目的滿意度
+                                    <li class="mt-16">● 工作環境<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8">&nbsp;● 學習成長<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8">
+                                    </li>
+                                    <li>● 職務內容<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8">&nbsp;● 績效管理<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8">
+                                    </li>
+                                    <li>● 人際關係<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8">&nbsp;● 公平正義<img src="img/satisfaction/more.svg" alt="more" class="svg-24 ml-8"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 hidden-sm wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="satisfaction-img satisfaction-img-center middle-block">
+                                <img src="img/satisfaction/img-4.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-sm-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="satisfaction-card satisfaction-card-white">
+                                <h2 class="card--bg--blue">組織滿意度</h2>
+                                <ul class="center bg--skyblue text--white">員工對組職策略、文化...等項目的滿意度
+                                    <li class="mt-16">● 一般制度<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">&nbsp;● 績效考核<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">
+                                    </li>
+                                    <li>● 薪資福利<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">&nbsp;● 晉升獎懲<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">
+                                    </li>
+                                    <li>● 政策方向<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">&nbsp;● 教育訓練<img src="img/satisfaction/more-white.svg" alt="more" class="svg-24 ml-8">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="align-left mt-16 wow fadeInDown"  data-wow-duration="1s" data-wow-delay=".4s">
+                                <p class="text--18"><strong>題數</strong>：完整題庫共87題 (工作滿意度44題、組織滿意度43題)</p>
+                                <p class="text--18 mt-8"><strong>客製化</strong>：企業可自由選擇向度或題目進行調查；亦可指定分析之數據與報告內容的呈現。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="satisfaction">
+        <div class="container">
+            <div class="row">
+                <div class="satisfaction-title wow fadeInDown">
+                    <h1><img src="img/satisfaction/title.svg" alt="title" class="svg-32"><font class="text--tea text--36">信度、效度</font> 標準檢核</h1>
+                </div>
+                <div class="satisfaction-content">
+                    <div class="row">
+                        <div class="satisfaction-text-block wow fadeInDown">
+                            <h3><img src="img/satisfaction/checked1.svg" alt="" class="svg-24 mr-8">信度</h3>
+                            <p>以Cronbach's α測量各項目內部一致性信度皆介於.898~.971</p>
+                            <p>工作滿意度構面的內部一致性 .903~.946</p>
+                            <p>組織滿意度構面的內部一致性 .898~.971</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="satisfaction-text-block mt-16 wow fadeInDown">
+                            <h3><img src="img/satisfaction/checked1.svg" alt="" class="svg-24 mr-8">效度</h3>
+                            <p class="text--black text--500">效標關聯效度</p>
+                            <p>工作滿意度構面中，各題與構面整體題的相關係數r落在.455***~.720***</p>
+                            <p>組織滿意度構面中，各題與構面整體題的相關係數r落在.369***~.801***</p>
+                            <p>以上相關係數皆達顯著效果</p><br>
+                            <p>以組織承諾與組織公民行為進行效標驗證結果：</p>
+                            <div class="center">
+                                <img src="img/satisfaction/img-5.svg" alt="" class="cronbach-form-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="ft-left-info flex-col">
+                            <p class="flex-2">全球華人股份有限公司版權所有 © 2018 1111 Job Bank All Rights Reserved.</p>
+                            <span class="flex-3">本網站建議使用 IE10 以上版本瀏覽器及以1024ｘ768以上解析度，以獲得最佳瀏覽體驗</span>
+                            <img src="img/1111-footer.svg" alt="1111人力銀行-求職找工作、企業徵才的領導品牌" class="flex-1">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/about.svg" alt="關於我們" class="ft-title-icon">關於 1111</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="https://www.1111.com.tw/webmap.asp" target="_blank" class="anb123">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>網站指引</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/13SP/summary/index.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>1111 簡介</a>
+                            </li>
+                            <li><a href="https://www.1111.com.tw/help/alliance.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>合作提案</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/help/memberRead.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>隱私權保護</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/people.svg" alt="求才服務" class="ft-title-icon">求才招募服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="vipsystem.html" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>VIP 求才招募系統</a>
+                            </li>
+                            <li>
+                                <a href="1HrSystem.html" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>1HR 招募甄選管理</a>
+                            </li>
+                            <li>
+                                <a href="talentapp.html" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>找人才 APP</a>
+                            </li>
+                            <li>
+                                <a href="https://headhunt.com.tw" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>高階獵頭</a>
+                            </li>
+                            <li>
+                                <a href="http://temp.1111.com.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>人才派遣</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/1111AD/index.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>徵才廣告曝光</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/people.svg" alt="求才服務" class="ft-title-icon">人資顧問服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="satisfaction.html" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>員工滿意度調查</a>
+                            </li>
+                            <li>
+                                <a href="http://consultant.1111.com.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>企業診斷輔導</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/dayoff/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>一例一休專區</a>
+                            </li>
+                            <li>
+                                <a href="https://www.hr.org.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>中華人事主管協會</a>
+                            </li>
+                            <li>
+                                <a href="http://www.ceu.org.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>創新智庫企業大學</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/dayoff/QA.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>勞資 Q&A</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3><img src="img/footer/service.svg" alt="服務專區" class="ft-title-icon">企業服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="https://www.1111.com.tw/news/jobns.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>職場新聞</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/17sp/JobsVideo/index.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>企業影音</a>
+                            </li>
+                            <li>
+                                <a href="https://1111.marketing/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>網路行銷服務</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111boss.com.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>創業加盟網</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/15SP/link/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>企業名人堂</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/1000w/fanshome/discuss.asp?cat=fans" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>商搜網</a>
+                            </li>
+                            <li>
+                                <a href="http://www.taiwanxing.com.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>台灣行</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/15sp/delicacy/index.asp" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>台灣美食</a>
+                            </li>
+                            <li>
+                                <a href="http://11tv.com.tw/" target="_blank">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>11 TV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Row End -->
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="ft-candidate">
+                            <h1><img src="img/footer/info.svg" alt="1111 人力銀行 求職會員服務中心" class="ft-title-icon">1111 人力銀行 求職會員服務中心</h1>
+                            <div class="ft-candidate-content align-justify">
+                                <p>
+                                <time>週一 ~ 週五 8:30 ~ 21:00，週六、週日、國定假日 9:00 ~ 17:00</time>
+                                </p>
+                                <p>電話：<a href="tel:0287871111">(02)8787-1111轉8</a> | 傳真：<a href="tel:0287871111">(02)5550-1111</a></p>
+                                <p>24小時免付費申訴專線：<a href="tel:0800091111">0800-09-1111</a></p>
+                                <p>E-mail：<a href="mailto:Support@staff.1111.com.tw">Support@staff.1111.com.tw</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="ft-recruitment">
+                            <h1>
+                            <img src="img/footer/info.svg" alt="1111 人力銀行 求職會員服務中心" class="ft-title-icon">1111 人力銀行 求才會員服務中心
+                            </h1>
+                            <div class="ft-recruitment-content align-justify">
+                                <p>
+                                    <time>週一 ~ 週五 8:30 ~ 21:00，週六、週日、國定假日 9:00 ~ 17:00</time>
+                                </p>
+                                <p>苗栗以北-電話：<a href="tel:0287871111">(02)8787-1111</a> | 苗栗以北-傳真：<a href="tel:0287870578">(02)8787-0578</a></p>
+                                <p>中部地區-電話：<a href="tel:0422031111">(04)2203-1111</a> | 中部地區-傳真：<a href="tel:0422061111">(04)2206-1111</a></p>
+                                <p>南部地區-電話：<a href="tel:079581111">(07)958-1111</a>&nbsp;&nbsp; | 南部地區-傳真：<a href="tel:07958222">(07)958-2222</a></p>
+                                <p>E-mail：<a href="mailto:hr1111@staff.1111.com.tw">Hr1111@staff.1111.com.tw</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <footer class="bt-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司(私業許字第2218號)
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司臺中分公司(中市私立就服第011號)
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司高雄分公司(高市就服字第0010號)
+                    </div>
+                </div>
+            </div>
+            <div id="back-to-top" class="back-to-top">
+             <button class="btn btn-dark" title="Back to Top" style="display: none;">
+                <i class="fa fa-angle-up"></i>
+             </button>
+            </div>
+    </footer>
+    </article>
+    <!-- Main End -->
+    <!-- Js -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- Counter Up -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- WoW js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Smooth scroll -->
+    <script src="js/smoothscroll.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Template Custom -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

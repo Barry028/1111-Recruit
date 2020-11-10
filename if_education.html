@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 求才招募系統 - 學歷</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=1">
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="vender/normalize.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+<style>
+    html {
+        font-size: 16px;
+    }
+    .check-select--education{
+        text-align: center;margin-top: 1rem;
+    }
+    .check-select--education label {
+        -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+                box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+        border: rgba(87,135,227,.25)  1px solid;
+        border-radius: 5px;
+        color: #537FD3;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 16px;
+        width: 40%;
+
+        padding: 0.5rem 1rem;
+        margin: 0.375rem 0.25rem;
+
+        cursor: pointer;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+    .check-select--education input[type=radio] {
+        display: none;
+    }
+    .check-select--education input[type=radio]:checked+label {
+        content: "";
+        background-color: #537FD3;
+        border: #ffffff 1px solid;
+        color: #ffffff;
+    }
+    .check-select--education select {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: #cccccc 1px solid;
+        border-radius: 5px;
+        color: #777777;    font-size: 16px;
+        padding: 1rem 2rem 1rem 1.5rem;
+        background: url(img/left-arrow.svg) no-repeat center;
+        background-size: 1rem;
+        background-position-x: 9rem;
+        -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+                box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    }
+    .check-select--education select::-ms-expand {
+        display: none
+    }
+    .btn-box{
+        background-color: #f5f5f5;
+        padding: 1rem;
+    }
+</style>
+    <!--[if lte IE 8]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <form class="check-select--education">
+        <input id="education_1" type="radio" name="education" value="">
+        <label for="education_1" class="">國中 / 國小</label>
+        <input id="education_2" type="radio" name="education" value="">
+        <label for="education_2" class="">高中職</label>
+        <input id="education_3" type="radio" name="education" value="">
+        <label for="education_3" class="">專科</label>
+        <input id="education_4" type="radio" name="education" value="">
+        <label for="education_4" class="">大學</label>
+        <input id="education_5" type="radio" name="education" value="">
+        <label for="education_5" class="">碩士</label>
+        <input id="education_6" type="radio" name="education" value="">
+        <label for="education_6" class="">博士</label>
+        <select name="" id="" class="mt-8 mb-16">
+            <option value="0">以上</option>
+            <option value="1">以上畢業</option>
+            <option value="2">限定此學歷</option>
+            <option value="3">限定此學歷畢業</option>
+            <option value="4">以下</option>
+        </select>
+        <div class="btn-box">
+            <input type="submit" class="btn btn--primary btn--sm" style="width:38%" value="確定" id="closeIframe">
+        </div>
+    </form >
+</body>
+
+</html>

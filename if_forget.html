@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 求才招募系統 - 忘記密碼</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=1">
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="vender/normalize.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+<style>
+html {
+    font-size: 16px;
+}
+.forget {
+    text-align: center;
+    margin-top: 1rem;
+}
+.forget-title p {
+    margin: 0 0 .5rem 0;
+}
+.forget-box {
+    color: #003A5D;
+    font-weight: 500;
+    background: #E1F5FE;
+    margin: 1rem;
+}
+.forget-content {
+    margin: 1rem;
+}
+.forget-content label {
+    margin: 0.25rem 0 0 0;
+}
+.btn-box {
+    background-color: #fcfcfc;
+    padding: 1rem;
+}
+input[type="text"],input[type="email"]{
+    padding: .5rem .75rem;
+}
+</style>
+    <!--[if lte IE 8]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <form action="" method="get" class="forget">
+        <div class="forget-title">
+            <p>選擇重設密碼方式 <span class="text--darkblue">(每項一天只能使用兩次)</span></p>發送至定的
+            <input type="radio" name="forget">
+            <label for="formail">E-Mail</label>
+            <input type="radio" name="forget">
+            <label for="forphone">行動電話</label>
+        </div>
+        <p class="forget-box">請輸入以下資料，我們會將新的密碼寄至您的E-MAIL！</p>
+        <div class="forget-content">
+            <div class="row mt-8">
+                <label for="" class="col-lg-3">帳　號 <span class="text--red">*</span></label>
+                <input type="text" placeholder="請輸入您的帳號" required="required" name="VipId" class="col-lg-8">
+            </div>
+            <div class="row mt-8">
+            <label for="" class="col-lg-3">信　箱 <span class="text--red">*</span></label>
+            <input name="tbeMail" type="email" placeholder="請輸入您註冊時的信箱" id="tbeMail" class="col-lg-8">
+            </div>
+            <div class="row mt-8">
+                <label for="" class="col-lg-3">驗證碼 <span class="text--red">*</span></label>
+                <input type="text" name="" value="" placeholder="驗證碼" class="col-lg-8">
+            </div>
+        </div>
+        <div class="btn-box">
+            <input type="reset" class="btn btn--default btn--sm btn--40" value="取消" id="closeIframe">
+            <input type="submit" class="btn btn--primary btn--sm btn--40" value="查詢密碼" id="closeIframe">
+        </div>
+    </form>
+</body>
+
+</html>

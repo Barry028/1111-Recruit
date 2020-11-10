@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 220 220">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: #484848;
+        font-size: 14px;
+        font-family: NotoSansCJKtc-Bold, Noto Sans CJK TC;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #c91c1d;
+      }
+
+      .cls-6 {
+        fill: #323232;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_37664" data-name="Group 37664" transform="translate(442 -2321)">
+    <g id="Rectangle_3535" data-name="Rectangle 3535" class="cls-1" transform="translate(-442 2321)">
+      <rect class="cls-7" width="220" height="220"/>
+      <rect class="cls-8" x="0.5" y="0.5" width="219" height="219"/>
+    </g>
+    <circle id="Ellipse_476" data-name="Ellipse 476" class="cls-2" cx="68.2" cy="68.2" r="68.2" transform="translate(-442 2404.6)"/>
+    <circle id="Ellipse_477" data-name="Ellipse 477" class="cls-2" cx="68.2" cy="68.2" r="68.2" transform="translate(-358.4 2404.6)"/>
+    <text id="系統功能" class="cls-3" transform="translate(-291 2484.486)"><tspan x="0" y="0">系統功能</tspan></text>
+    <text id="資料範圍" class="cls-3" transform="translate(-426.886 2484.486)"><tspan x="0" y="0">資料範圍</tspan></text>
+    <circle id="Ellipse_475" data-name="Ellipse 475" class="cls-2" cx="68.2" cy="68.2" r="68.2" transform="translate(-399.257 2321)"/>
+    <text id="單元模組" class="cls-3" transform="translate(-359.371 2384.543)"><tspan x="0" y="0">單元模組</tspan></text>
+    <g id="Group_37663" data-name="Group 37663" transform="translate(-201 134)">
+      <path id="Path_46781" data-name="Path 46781" class="cls-4" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(-171 2271)"/>
+      <g id="Group_37661" data-name="Group 37661" transform="translate(-158 2298)">
+        <path id="Path_46778" data-name="Path 46778" class="cls-5" d="M9.419.1H5.536a.446.446,0,0,0-.3.135A11.515,11.515,0,0,1,.716,3.317C.248,3.452,0,3.7,0,3.993V7.264a.518.518,0,0,0,.028.216c.11.27.441.27.578.27H.689a1.609,1.609,0,0,1,1.68.973,13.74,13.74,0,0,1,.11,1.406V25.162a.4.4,0,0,0,.413.406H9.447a.42.42,0,0,0,.413-.406V.506A.492.492,0,0,0,9.419.1Z" transform="translate(0 -0.072)"/>
+        <g id="Group_37660" data-name="Group 37660" transform="translate(9.557)">
+          <path id="Path_46779" data-name="Path 46779" class="cls-6" d="M57.752.1H52.547a.42.42,0,0,0-.413.406V9.4h-11.4V.506A.42.42,0,0,0,40.318.1H35.113A.42.42,0,0,0,34.7.506V25.162a.42.42,0,0,0,.413.406h5.205a.42.42,0,0,0,.413-.406V14.51h11.4V25.162a.42.42,0,0,0,.413.406h5.205a.42.42,0,0,0,.413-.406V.506A.44.44,0,0,0,57.752.1Z" transform="translate(-34.7 -0.072)"/>
+          <path id="Path_46780" data-name="Path 46780" class="cls-6" d="M148.109,9.545V7.652c0-2.839-.606-4.786-1.873-5.949C145.025.568,142.987,0,140.067,0H128.913a.42.42,0,0,0-.413.406v4.11a.42.42,0,0,0,.413.406h10.163a6.8,6.8,0,0,1,3.277.514c.358.216.551.838.551,1.785V9.275c0,1.352-.468,1.622-.606,1.731a5.566,5.566,0,0,1-2.782.541h-10.6a.42.42,0,0,0-.413.406v4.11a.42.42,0,0,0,.413.406h10.824c1.735,0,2.341.324,2.561.541.165.162.523.676.523,2.38V25.31a.42.42,0,0,0,.413.406h4.214a.42.42,0,0,0,.413-.406V18.577a5.53,5.53,0,0,0-1.708-4.354,4.256,4.256,0,0,0,.744-.622A5.789,5.789,0,0,0,148.109,9.545Z" transform="translate(-103.666)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

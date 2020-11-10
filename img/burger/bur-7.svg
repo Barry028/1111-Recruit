@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #727272;
+        stroke-width: 1.7px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="bur-7" transform="translate(-289 -494)">
+    <rect id="bg" class="cls-1" width="24" height="24" transform="translate(289 494)"/>
+    <g id="icon" transform="translate(2 2)">
+      <circle id="Oval" class="cls-2" cx="3.006" cy="3.006" r="3.006" transform="translate(294.524 495.925)"/>
+      <path id="path" class="cls-3" d="M304.812,512.37s-.174-3.079.521-3.639a18.026,18.026,0,0,0,3.733-4.29,22.216,22.216,0,0,0,.951-6.626c.036-3.062-3.371-2.851-3.342,0s-.805,5.274-1.863,6.26-2.262,1.854-6.492,1.751-6.1,1.726-6.052,6.545" transform="translate(-2 0)"/>
+    </g>
+  </g>
+</svg>

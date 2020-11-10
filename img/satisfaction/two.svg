@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.546 225.546">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #73e7e6;
+      }
+
+      .cls-2 {
+        fill: #65d1cb;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 164px;
+        font-family: FuturaPT-Medium, Futura PT;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="two" transform="translate(-279.619 -272.838)">
+    <path id="Path_46925" data-name="Path 46925" class="cls-1" d="M455.533,498.384H329.251a49.632,49.632,0,0,1-49.632-49.632V322.47a49.632,49.632,0,0,1,49.632-49.632H455.533a49.632,49.632,0,0,1,49.632,49.632V448.752A49.632,49.632,0,0,1,455.533,498.384Z"/>
+    <path id="Path_46926" data-name="Path 46926" class="cls-2" d="M455.533,272.838H415.094a50.244,50.244,0,0,1,38.6,48.865V449.519a50.245,50.245,0,0,1-38.6,48.865h40.439a49.632,49.632,0,0,0,49.632-49.632V322.47A49.632,49.632,0,0,0,455.533,272.838Z"/>
+    <text id="_2" data-name="2" class="cls-3" transform="translate(343.835 442)"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

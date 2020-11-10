@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_3" transform="translate(164 -3230)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(-164 3230)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+    <path id="fa-shield" d="M16.841,40a1.571,1.571,0,0,1-.683-.157A41.25,41.25,0,0,1,7.832,34.76a25.346,25.346,0,0,1-5.4-5.667A13.314,13.314,0,0,1,0,21.669V1.663A1.69,1.69,0,0,1,1.682,0H32a1.69,1.69,0,0,1,1.682,1.663V21.669a13.314,13.314,0,0,1-2.432,7.424,25.348,25.348,0,0,1-5.4,5.667,41.335,41.335,0,0,1-8.325,5.083A1.575,1.575,0,0,1,16.841,40Zm0-35V34.609a38.181,38.181,0,0,0,5.6-3.569c2.822-2.19,6.186-5.593,6.186-9.371V5Z" transform="translate(-157 3234)" fill="#585b60"/>
+  </g>
+</svg>

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 求才招募系統 - 人才試搜</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=1">
+    <meta name="Keywords" content="徵才,徵人,求才,人才,企業徵才,企業求才,找人才,人才查詢">
+    <meta name="Description" content="企業徵才求才可使用1111求才招募系統，查詢符合需求的人才。一個帳號控管部門、分店徵才權限，15項職能力報告讓你先一步瞭解求職者，徵人、找人才只要設定好職缺條件就可快速收到適合的人才名單！">
+    <meta name="keywords" content="人力銀行,求職,徵才,工作,求職網,jobbank,job">
+    <meta property="og:title" content="1111人力銀行｜求職找工作、工作找人才的求職網">
+    <meta property="og:description" content="1111人力銀行徵才求職的最佳選擇，榮獲2018年人力銀行服務業金牌大獎，提供最貼心的求才求職服務。現推出富酬者大聯盟魔鬼訓練營，讓新鮮人起薪多1萬、年輕人加薪30%以上不再是夢。求職速上1111人力銀行，為自己加薪。">
+    <meta property="og:image" content="https://www.1111.com.tw/talents/MicroBlogging/images/facebook_banner01.jpg">
+    <meta property="og:url" content="https://recruit.1111.com.tw/">
+    <!-- Favicon -->
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="vender/normalize.css">
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/animate.css">
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="vender/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <!--[if lte IE 8]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="push-left">
+                        <a href="index.html" class="text--inverse text--600">1111 招募管理系統</a>
+                        <a href="https://www.1111.com.tw/">1111 人力銀行</a>
+                        <a href="#!" id="service">線上客服</a>
+                        <a href="#!" id="IP">IP 查詢</a>
+                    </div>
+                    <div class="push-right">
+                        <a href="satisfaction.html">員工滿意度調查</a>
+                        <a href="https://www.1111.com.tw/help/service.asp" target="_blank">常見問題</a>
+                        <a href="contactus.html">聯絡我們</a>
+                        <a href="login.html">登入</a>
+                        <a href="price.html" class="text--red">刊登徵才廣告</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="logo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 hidden-sm">
+                        <div class="logo">
+                            <div class="glow"></div>
+                            <a href="index.html" title="1111人力銀行-求職找工作、企業徵才的領導品牌">
+                                <img src="img/1111.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 hidden-sm">
+                        <ul class="contact">
+                            <li>
+                                <span class="push-right">
+                                    <label class="gruoup">
+                                        <img src="img/1_index/svg/telephone.svg" alt="" class="svg-24 mr-16">
+                                    </label>
+                                    <label class="gruoup">
+                                        <h3>聯絡電話</h3>
+                                        <a href="tel:0287871111">(02) 8787-1111</a>
+                                    </label>
+                                </span>
+                            </li>
+                            <li>
+                                <address class="push-right">
+                                    <label class="gruoup">
+                                        <img src="img/1_index/svg/envelope.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌" class="svg-24 mr-16">
+                                    </label>
+                                    <label class="gruoup">
+                                        <h3>客服信箱</h3>
+                                        <a href="mailto:hr1111@staff.1111.com.tw">Hr1111@staff.1111.com.tw</a>
+                                    </label>
+                                </address>
+                            </li>
+                            <li>
+                                <span class="push-right">
+                                    <label class="gruoup">
+                                        <img src="img/1_index/svg/alarm-clock.svg" alt="1111 人力銀行 - 求職找工作、企業徵才的領導品牌" class="svg-24 mr-16">
+                                    </label>
+                                    <label class="gruoup">
+                                        <h3>服務時間</h3>
+                                        <time>週一 ~ 五 8:30 - 6:00</time>
+                                    </label>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- info End -->
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <ul id="popup-menu" class="menu">
+                        <li class="menu-item hidden-sm-up">
+                            <img src="img/1111-white.svg" alt="1111" class="logo">
+                            <a href="login.html" class="login-link text-right">註冊 / 登入</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html">
+                                <img src="img/burger/bur-1.svg" alt="首頁" class="svg-24 mr-40 hidden-sm-up">首頁
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="productservice.html">
+                                <img src="img/burger/bur-2.svg" alt="產品服務" class="svg-24 mr-40 hidden-sm-up">產品服務
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="vipsystem.html">
+                                <img src="img/burger/bur-3.svg" alt="VIP求才招募系統" class="svg-24 mr-40 hidden-sm-up">VIP求才招募系統
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="1HrSystem.html">
+                                <img src="img/burger/bur-4.svg" alt="1HR人資管理系統" class="svg-24 mr-40 hidden-sm-up">1HR人資管理系統
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="talentapp.html">
+                                <img src="img/burger/bur-5.svg" alt="找人才 App" class="svg-24 mr-40 hidden-sm-up">找人才 App
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="trialsearch.html" class="active">
+                                <img src="img/burger/bur-6.svg" alt="人才試搜" class="svg-24 mr-40 hidden-sm-up">人才試搜
+                            </a>
+                        </li>
+                        <li class="menu-item-post">
+                            <a href="price.html">
+                                <img src="img/burger/bur-7.svg" alt="我要刊登" class="svg-24 mr-40 hidden-sm-up">我要刊登
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="satisfaction.html">
+                                <img src="img/burger/bur-8.svg" alt="員工滿意度調查" class="svg-24 mr-40 hidden-sm-up">員工滿意度調查
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="#!" id="service_mobile">
+                                <img src="img/burger/bur-9.svg" alt="線上客服" class="svg-24 mr-40 hidden-sm-up">線上客服
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="contactus.html">
+                                <img src="img/burger/bur-11.svg" alt="聯絡我們" class="svg-24 mr-40 hidden-sm-up">聯絡我們
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="#!" id="ip_mobile">
+                                <img src="img/burger/bur-10.svg" alt="IP 查詢" id="ip_mobile" class="svg-24 mr-40 hidden-sm-up">IP 查詢
+                            </a>
+                        </li>
+                        <li class="menu-item hidden-sm-up">
+                            <a href="#!">
+                                <img src="img/burger/bur-12.svg" alt="常見問題" class="svg-24 mr-40 hidden-sm-up">常見問題
+                            </a>
+                        </li>
+                        <a href="#!" class="close-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </ul>
+                    <div class="mobile-nav">
+                        <a href="#popup-menu" class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a href="index.html">
+                                <img src="img/1111-white.svg" alt="1111人力銀行">
+                            </a>
+                            <a href="login.html">登入</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <article class="main">
+        <section class="resume-page-top">
+            <div class="container">
+                <div class="row">
+                    <div class="resume-main">
+                        <div class="resume-img">
+                            <img src="img/6_trialsearch/people.svg" alt="profile-pic">
+                        </div>
+                        <div class="resume-content">
+                            <div class="resume-info">
+                                <p class="resume-name">
+                                    <font class="text--darkblue">限刊登中會員觀看姓名</font>
+                                    <img src="img/6_trialsearch/goodtime.svg" class="resume-icon" alt="守約會員" title="守約會員">
+                                    <img src="img/6_trialsearch/star.svg" class="resume-icon" alt="九大職能星" tltle="九大職能星">
+                                    <img src="img/6_trialsearch/video.svg" class="resume-icon" alt="影音履歷" tltle="影音履歷">
+                                    <span>在職中</span>
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">理想職務：</font>行政助理、工讀生
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">上班地點：</font>台北市全區、新北市全區、桃園縣全區
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">居住地：</font>台北市
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">理想行業：</font>軟體 / 網路
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">最高學歷：</font>大學畢業 國立交通大學 資訊管理系
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">工作經歷：</font>
+                                    8~9年工作經驗
+                                </p>
+                                <p>
+                                    <font class="text--lightgrey text--300">更新日：2018 / 07 / 17</font>
+                                </p>
+                            </div>
+                            <div class="table-cell resume-btn">
+                                <a href="javascript:void(0);" class="btn btn--primary block justvip">通　　知</a>
+                                <a href="javascript:void(0);" class="btn btn--white--primary block justvip">加入追蹤</a>
+                                <a href="javascript:void(0);" class="btn btn--white--primary block justvip">面試行事曆</a>
+                                <a href="javascript:void(0);" class="btn btn--white--primary block justvip">更　　多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="resume-main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="resume-main-info">
+                        <div class="resume-main-title">
+                            <h4>個人背景</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">中文姓名</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">性　　別</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">年　　齡</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">婚姻狀況</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">身高體重</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">兵役狀況</p>
+                            <p class="text">役畢 ( 退伍：2018/02)</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">國　　籍</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">上線日期</p>
+                            <p class="text">2019 / 06 / 10</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">修改日期</p>
+                            <p class="text">2019 / 06 / 04</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">其他身分</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">持有駕照</p>
+                            <p class="text">輕型機車、普通小型車、職業小型車、職業大貨車、職業聯結車</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">自備車輛</p>
+                            <p class="text">輕型機車、普通小型車、職業小型車、職業大貨車、職業聯結車</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>加分亮點</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>聯絡方式</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>教育程度</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">詳細經歷</p>
+                            <p class="text">大學畢業 國立交通大學 資訊管理系</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>工作經歷</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">工作年資</p>
+                            <p class="text">0~1年工作經驗(待業中)</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">職務累計</p>
+                            <p class="text">1~2年 授權／授信／徵信人員 相關經驗</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">詳細經歷</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>求職條件</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">履歷屬性</p>
+                            <p class="text">全職</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">理想職稱</p>
+                            <p class="text">遊戲企劃測試履歷</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">應徵類別</p>
+                            <p class="text">遊戲企劃人員</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">職務描述</p>
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">希望待遇</p>
+                            <p class="text">面議</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">可上班日</p>
+                            <p class="text">隨時</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">上班地點</p>
+                            <p class="text">北非埃及</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">理想產業</p>
+                            <p class="text">任何產業</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">上班時段</p>
+                            <p class="text">日班</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">休假制度</p>
+                            <p class="text">週休二日</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">接受派遣</p>
+                            <p class="text">願意接受「派遣」工作</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>校園幹部/社團經驗</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>語文能力</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">語言能力</p>
+                            <p class="text">
+                                <span class="resume-tag">中文</span>
+                                <font>聽/略通、說/略通、讀/略通、寫/略通</font>
+                                <br>
+                                <span class="resume-tag">英文</span>
+                                <font>聽/略通、說/略通、讀/略通、寫/略通</font>
+                            </p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">方言能力</p>
+                            <p class="text">
+                                <span class="resume-tag">台語</span>
+                                <font class="pr-16">普通</font>
+                                <span class="resume-tag">客語</span>
+                                <font class="pr-16">略通</font>
+                                <span class="resume-tag">粵語</span>
+                                <font class="pr-16">略通</font>
+                            </p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>電腦專長</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">辦公室應用</p>
+                            <p class="text">PowerPoint、Microsoft Publisher、Adobe Acrobat DC、LibreOffice Writer</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">作業系統</p>
+                            <p class="text">Windows Server 2000-2012</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">程式設計</p>
+                            <p class="text">Systems Administration</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">資料庫</p>
+                            <p class="text">Visual Foxpro</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">其　　他</p>
+                            <p class="text">Word、Excel、PowerPoint</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">中文打字</p>
+                            <p class="text">
+                                <span class="resume-tag">注音</span>
+                                <font class="pr-16">每分鐘 20 字</font>
+                            </p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">英文打字</p>
+                            <p class="text">每分鐘 20 字</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>專業證照</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">設計／美工相關類</p>
+                            <p class="text">MAYA動畫設計、InDesign、TQC影像處理-PhotoImpact、IT Expert 3D動畫科技藝術-模型製作與材質設定專業人員-場景製作、TQC+多媒體網頁設計專業人員、TQC+ 影像處理-Photoshop、iClone RCDE、iPAS行動遊戲程式設計師(初級)</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">生產製造類</p>
+                            <p class="text">乙級平版印刷技術士、丙級平版印刷技術士、乙級網版製版技術士、丙級網版製版技術士</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">環保／勞安相關類</p>
+                            <p class="text">甲級毒化物專責人員合格證書、廢水專責人員、機動車輛噪音檢查人員</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">其　　他</p>
+                            <p class="text">基礎採購檢定A.P.S.</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>工作技能</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">美容美髮</p>
+                            <p class="text">基礎潔膚和卸妝技巧，了解不同膚質特性，具備美容保養知識</p>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="title">其　　他</p>
+                            <p class="text">文書處理、基礎網頁編輯、基礎影像處理</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>自傳</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>附件/作品</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                        <div class="resume-main-title mt-16">
+                            <h4>推薦人</h4>
+                        </div>
+                        <div class="resume-info-row">
+                            <p class="text text--darkblue">限刊登中會員觀看</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hiring">
+            <div class="mask mask_slash"></div>
+            <div class="container">
+                <div class="center pt-32 pb-32 wow fadeInDown">
+                    <h2 class="inline-block align-middle pr-16">
+                        <span class="pr-8">馬上開始</span> 刊登招聘人才廣告
+                    </h2>
+                    <a href="price.html" class="btn btn--white--nobg btn--md inline-block mt-16 mb-16">我要徵才</a>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="ft-left-info flex-col">
+                            <p class="flex-2">全球華人股份有限公司版權所有 © 2018 1111 Job Bank All Rights Reserved.</p>
+                            <span class="flex-3">本網站建議使用 IE10 以上版本瀏覽器及以1024ｘ768以上解析度，以獲得最佳瀏覽體驗</span>
+                            <img src="img/1111-footer.svg" alt="1111人力銀行-求職找工作、企業徵才的領導品牌" class="flex-1">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/about.svg" alt="關於我們" class="ft-title-icon">關於 1111</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="https://www.1111.com.tw/webmap.asp" target="_blank" class="anb123">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>網站指引</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/13SP/summary/index.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>1111 簡介</a>
+                            </li>
+                            <li><a href="https://www.1111.com.tw/help/alliance.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>合作提案</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/help/memberRead.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>隱私權保護</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/people.svg" alt="求才服務" class="ft-title-icon">求才招募服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="vipsystem.html" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>VIP 求才招募系統</a>
+                            </li>
+                            <li>
+                                <a href="1HrSystem.html" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>1HR 招募甄選管理</a>
+                            </li>
+                            <li>
+                                <a href="talentapp.html" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>找人才 APP</a>
+                            </li>
+                            <li>
+                                <a href="https://headhunt.com.tw" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>高階獵頭</a>
+                            </li>
+                            <li>
+                                <a href="http://temp.1111.com.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>人才派遣</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/1111AD/index.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>徵才廣告曝光</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <h3><img src="img/footer/people.svg" alt="求才服務" class="ft-title-icon">人資顧問服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="satisfaction.html" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>員工滿意度調查</a>
+                            </li>
+                            <li>
+                                <a href="https://www.hr.org.tw/enterprise2.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>企業診斷輔導</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/dayoff/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>一例一休專區</a>
+                            </li>
+                            <li>
+                                <a href="https://www.hr.org.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>中華人事主管協會</a>
+                            </li>
+                            <li>
+                                <a href="http://www.ceu.org.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>創新智庫企業大學</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/dayoff/QA.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>勞資 Q&A</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3><img src="img/footer/service.svg" alt="服務專區" class="ft-title-icon">企業服務</h3>
+                        <ul class="flex-row-wrap-lf">
+                            <li>
+                                <a href="https://www.1111.com.tw/news/jobns.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>職場新聞</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/17sp/JobsVideo/index.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>企業影音</a>
+                            </li>
+                            <li>
+                                <a href="https://1111.marketing/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>網路行銷服務</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111boss.com.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>創業加盟網</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/15SP/link/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>企業名人堂</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/1000w/fanshome/discuss.asp?cat=fans" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>商搜網</a>
+                            </li>
+                            <li>
+                                <a href="http://www.taiwanxing.com.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>台灣行</a>
+                            </li>
+                            <li>
+                                <a href="https://www.1111.com.tw/15sp/delicacy/index.asp" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>台灣美食</a>
+                            </li>
+                            <li>
+                                <a href="http://11tv.com.tw/" target="_blank">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>11 TV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Row End -->
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="ft-candidate">
+                            <h1><img src="img/footer/info.svg" alt="1111 人力銀行 求職會員服務中心" class="ft-title-icon">1111 人力銀行 求職會員服務中心</h1>
+                            <div class="ft-candidate-content align-justify">
+                                <p>
+                                    <time>週一 ~ 週五 8:30 ~ 21:00，週六、週日、國定假日 9:00 ~ 17:00</time>
+                                </p>
+                                <p>電話：<a href="tel:0287871111">(02)8787-1111轉8</a> | 傳真：<a href="tel:0287871111">(02)5550-1111</a></p>
+                                <p>24小時免付費申訴專線：<a href="tel:0800091111">0800-09-1111</a></p>
+                                <p>E-mail：<a href="mailto:Support@staff.1111.com.tw">Support@staff.1111.com.tw</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="ft-recruitment">
+                            <h1>
+                                <img src="img/footer/info.svg" alt="1111 人力銀行 求職會員服務中心" class="ft-title-icon">1111 人力銀行 求才會員服務中心
+                            </h1>
+                            <div class="ft-recruitment-content align-justify">
+                                <p>
+                                    <time>週一 ~ 週五 8:30 ~ 21:00，週六、週日、國定假日 9:00 ~ 17:00</time>
+                                </p>
+                                <p>苗栗以北-電話：<a href="tel:0287871111">(02)8787-1111</a> | 苗栗以北-傳真：<a href="tel:0287870578">(02)8787-0578</a></p>
+                                <p>中部地區-電話：<a href="tel:0422031111">(04)2203-1111</a> | 中部地區-傳真：<a href="tel:0422061111">(04)2206-1111</a></p>
+                                <p>南部地區-電話：<a href="tel:079581111">(07)958-1111</a>&nbsp;&nbsp; | 南部地區-傳真：<a href="tel:07958222">(07)958-2222</a></p>
+                                <p>E-mail：<a href="mailto:hr1111@staff.1111.com.tw">Hr1111@staff.1111.com.tw</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="bt-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司(私業許字第2218號)
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司臺中分公司(中市私立就服第011號)
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        全球華人股份有限公司高雄分公司(高市就服字第0010號)
+                    </div>
+                </div>
+            </div>
+            <div id="back-to-top" class="back-to-top">
+                <button class="btn btn-dark" title="Back to Top" style="display: none;">
+                    <i class="fa fa-angle-up"></i>
+                </button>
+            </div>
+        </footer>
+    </article>
+    <!-- Main End -->
+    <!-- Js -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- Counter Up -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- WoW js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Smooth scroll -->
+    <script src="js/smoothscroll.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Template Custom -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

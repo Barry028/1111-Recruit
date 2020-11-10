@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_14" transform="translate(-909 -451)">
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(909 451)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+    <g id="conversation-speech-bubbles-" transform="translate(909 455)">
+      <path id="Path" d="M24,0C10.745,0,0,8.122,0,18.137c0,4.742,2.41,9.065,6.357,12.3-.151,3.149-.83,7.383-3.23,9.566,4.584,0,9.278-2.9,12.062-4.993A30.733,30.733,0,0,0,24,36.274c13.255,0,24-8.122,24-18.137S37.255,0,24,0Z" fill="#585b60"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20.472">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #248dc1;
+      }
+    </style>
+  </defs>
+  <g id="Group_7749" data-name="Group 7749" transform="translate(-285 -287)">
+    <g id="Group_7656" data-name="Group 7656" transform="translate(285 287)">
+      <g id="Group_7655" data-name="Group 7655">
+        <path id="Path_9818" data-name="Path 9818" class="cls-1" d="M16.3,40.446V37.631H7.7v2.815H0v8.126H10.358v1.407h3.285V48.571H24V40.446Zm-1.406,0H9.107V39.037h5.787Z" transform="translate(0 -37.631)"/>
+      </g>
+    </g>
+    <g id="Group_7658" data-name="Group 7658" transform="translate(285 299.346)">
+      <g id="Group_7657" data-name="Group 7657">
+        <path id="Path_9819" data-name="Path 9819" class="cls-1" d="M15.049,301.024v1.407h-6.1v-1.407H0v8.126H24v-8.126Z" transform="translate(0 -301.024)"/>
+      </g>
+    </g>
+  </g>
+</svg>

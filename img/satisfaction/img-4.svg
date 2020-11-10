@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 270">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #61af5b;
+      }
+
+      .cls-3 {
+        font-size: 30px;
+        font-family: NotoSansCJKtc-Regular, Noto Sans CJK TC;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .cls-4 {
+        stroke: #0088d1;
+      }
+
+      .cls-5 {
+        fill: #0088d1;
+      }
+
+      .cls-6 {
+        stroke: #46b2bc;
+      }
+
+      .cls-7 {
+        fill: #46b2bc;
+      }
+
+      .cls-8, .cls-9 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <g id="img-4" transform="translate(-4856 -1988)">
+    <g id="Path_47183" data-name="Path 47183" class="cls-1" transform="translate(4856 1988)">
+      <path class="cls-8" d="M 201.5 269.5 L 0.5 269.5 L 0.5 0.5 L 201.5 0.5 L 201.5 269.5 Z"/>
+      <path class="cls-9" d="M 1 1 L 1 269 L 201 269 L 201 1 L 1 1 M 0 0 L 202 0 L 202 270 L 0 270 L 0 0 Z"/>
+    </g>
+    <g id="Group_37730" data-name="Group 37730" transform="translate(50 -96)">
+      <circle id="Ellipse_1544" data-name="Ellipse 1544" class="cls-2" cx="96" cy="96" r="96" transform="translate(4811 2123)"/>
+      <text id="ES員工_滿意度調查" data-name="ES員工
+滿意度調查" class="cls-3" transform="translate(4907 2210)"><tspan x="-47.775" y="0">ES員工</tspan><tspan x="-75" y="44">滿意度調查</tspan></text>
+    </g>
+    <g id="Group_37732" data-name="Group 37732" transform="translate(0 -9.778)">
+      <path id="Path_47185" data-name="Path 47185" class="cls-4" d="M4895,2099h-28s-64-50-128.333,0H4717" transform="translate(155 -64)"/>
+      <g id="play-button" transform="translate(4890.399 2046.374) rotate(180)">
+        <g id="Group_37731" data-name="Group 37731" transform="translate(13.974 0)">
+          <path id="Path_47186" data-name="Path 47186" class="cls-5" d="M33.019,9.818,27.232,6.442c-1.291-.756-3.4-1.987-4.7-2.74l-6-3.376c-1.291-.756-2.561-.15-2.561,1.348V20.7c0,1.492,1.27,2.1,2.561,1.348l5.894-3.376c1.294-.753,3.461-1.984,4.752-2.74L33,12.559C34.284,11.8,34.308,10.571,33.019,9.818Z" transform="translate(-13.974 0)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_37733" data-name="Group 37733" transform="translate(9914.426 4255.374) rotate(180)">
+      <path id="Path_47185-2" data-name="Path 47185" class="cls-6" d="M4895,2099h-28s-64-50-128.333,0H4717" transform="translate(155 -64)"/>
+      <g id="play-button-2" data-name="play-button" transform="translate(4890.399 2046.374) rotate(180)">
+        <g id="Group_37731-2" data-name="Group 37731" transform="translate(13.974 0)">
+          <path id="Path_47186-2" data-name="Path 47186" class="cls-7" d="M33.019,9.818,27.232,6.442c-1.291-.756-3.4-1.987-4.7-2.74l-6-3.376c-1.291-.756-2.561-.15-2.561,1.348V20.7c0,1.492,1.27,2.1,2.561,1.348l5.894-3.376c1.294-.753,3.461-1.984,4.752-2.74L33,12.559C34.284,11.8,34.308,10.571,33.019,9.818Z" transform="translate(-13.974 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

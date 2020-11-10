@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.5" height="66.5" viewBox="0 0 66.5 66.5">
+  <g id="icon_21" transform="translate(-1172 -654)">
+    <circle id="Ellipse_1_copy_7" cx="32.25" cy="32.25" r="32.25" transform="translate(1173 655)" fill="#fff" stroke="#e9ebec" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="delete-photo" transform="translate(1192 670)">
+      <path id="Shape" d="M22.16,26H.84A.812.812,0,0,1,0,25.222V0H23V25.222A.812.812,0,0,1,22.16,26ZM16.224,4.292V21.263h3.15V4.292Zm-6.3,0V21.263h3.15V4.292Zm-6.3,0V21.263H6.775V4.292Z" transform="translate(2 9)" fill="#585b60"/>
+      <path id="Shape-2" data-name="Shape" d="M26.177,8H.823A.8.8,0,0,1,0,7.229V5.279a.8.8,0,0,1,.823-.77H6.57V.771A.8.8,0,0,1,7.392,0H19.608a.8.8,0,0,1,.822.771V4.508h5.747a.8.8,0,0,1,.823.77v1.95A.8.8,0,0,1,26.177,8ZM9.653,2.892V4.349h7.693V2.892Z" fill="#585b60"/>
+    </g>
+  </g>
+</svg>

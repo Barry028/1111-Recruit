@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_6" transform="translate(-300 -695)">
+    <g id="maps-and-flags" transform="translate(307 697)">
+      <path id="Shape" d="M17,43a1.6,1.6,0,0,1-1.139-.465C15.213,41.874,0,26.221,0,15.573,0,6.986,7.626,0,17,0S34,6.986,34,15.573c0,10.67-15.214,26.3-15.862,26.962A1.6,1.6,0,0,1,17,43ZM16.5,8.234c-4.687,0-8.5,3.489-8.5,7.777s3.813,7.776,8.5,7.776S25,20.3,25,16.011,21.187,8.234,16.5,8.234Z" transform="translate(0 0)" fill="#585b60"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(300 695)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,174 @@
+/*=======================================
+                Base
+=======================================*/
+* {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 16px
+}
+
+@media all and (max-width:992px) {
+    html {
+        font-size: 15px
+    }
+
+}
+
+@media all and (max-width:768px) {
+    html {
+        font-size: 13px
+    }
+
+}
+
+@media all and (max-width:480px) {
+    html {
+        font-size: 12px
+    }
+
+}
+
+body {
+    color: #444;
+    background-color: #fff;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK TC', 微軟正黑體, '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    line-height: 1.6;
+    text-rendering: optimizeSpeed
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s
+}
+
+a:hover {
+    color: #217dbb
+}
+
+figure, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+button, input, optgroup, select, textarea {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK TC', '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    outline: none
+}
+
+img, svg, image {
+    max-width: 100%;
+    height: auto
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+h2 {
+    font-size: 2.25rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+h4 {
+    font-size: 1.75rem
+}
+
+h5 {
+    font-size: 1.5rem
+}
+
+h6 {
+    font-size: 1.1125rem
+}
+
+p {
+    font-size: 1rem
+}
+
+span {
+    font-size: .9375rem
+}
+
+label {
+    font-size: .9375rem
+}
+
+em {
+    font-style: italic
+}
+
+::-moz-selection {
+    background: #1F489B;
+    color: #fff
+}
+
+::selection {
+    background: #1F489B;
+    color: #fff
+}
+
+input::-webkit-input-placeholder {
+    font-weight: 300;
+    color: #999
+}
+
+input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], textarea {
+    font-size: .875rem;
+    padding: .5rem .75rem;
+    -webkit-transition: border-color .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out;
+    transition: border-color .15s ease-in-out;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    border: 1px #E9E9E9 solid;
+    -webkit-box-shadow: 0 0px 1px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 1px 0px rgba(0, 0, 0, 0.1)
+}
+
+input[type=email]:focus, input[type=url]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=color]:focus, input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, textarea:focus {
+    color: #333;
+    border-color: #F59942;
+    background-color: #fff
+}
+
+address {
+    display: block;
+    font-style: normal
+}
+
+select {
+    display: inline-block;
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: #4263a3;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-size: .5rem;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    background-color: transparent;
+    background-image: url(../../../images/defaultMaster/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 8.4rem center;
+    padding: .5em 2.5rem .5rem 1rem;
+    border: #aebcd6 1px solid;
+}

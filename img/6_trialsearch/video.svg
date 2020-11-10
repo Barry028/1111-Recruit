@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #8fceeb;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="video" transform="translate(-687 -603)">
+    <g id="Rectangle_2346" data-name="Rectangle 2346" class="cls-1" transform="translate(687 603)">
+      <rect class="cls-3" width="32" height="32"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="31" height="31"/>
+    </g>
+    <g id="video-camera" transform="translate(692 601.413)">
+      <path id="Path_9619" data-name="Path 9619" class="cls-2" d="M20.9,14.287c.6-.454,1.1-.205,1.1.55V27.212c0,.756-.5,1-1.1.55l-3.3-2.476a3.111,3.111,0,0,1-1.1-2.2V18.962a3.111,3.111,0,0,1,1.1-2.2ZM2.75,7.962a2.75,2.75,0,1,0,2.75,2.75A2.75,2.75,0,0,0,2.75,7.962ZM11,6.587a3.438,3.438,0,1,0,3.438,3.437A3.437,3.437,0,0,0,11,6.587Zm-5.5,11h9.625v8.25a1.374,1.374,0,0,1-1.375,1.375H1.375A1.374,1.374,0,0,1,0,25.837V16.212a1.374,1.374,0,0,1,1.375-1.375H13.75a1.374,1.374,0,0,1,1.375,1.375H5.5Zm0,5.5a1.375,1.375,0,1,0-1.375,1.375A1.374,1.374,0,0,0,5.5,23.087Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #a5d6a7;
+      }
+
+      .cls-3 {
+        fill: #242d3c;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3976" data-name="Group 3976" transform="translate(-514 -1077)">
+    <g id="Rectangle_2179" data-name="Rectangle 2179" class="cls-1" transform="translate(514 1077)">
+      <rect class="cls-4" width="120" height="120"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="119" height="119"/>
+    </g>
+    <g id="networking" transform="translate(529 1076.013)">
+      <path id="Path_9077" data-name="Path 9077" class="cls-2" d="M123.3,195.051a17.159,17.159,0,0,1,21.171-16.684A30.244,30.244,0,0,0,130.694,154.5a17.16,17.16,0,0,1-32.91,0,30.242,30.242,0,0,0-13.779,23.868A17.155,17.155,0,0,1,100.46,206.86a30.257,30.257,0,0,0,27.558,0A17.092,17.092,0,0,1,123.3,195.051Z" transform="translate(-69.239 -110.868)"/>
+      <g id="Group_3971" data-name="Group 3971" transform="translate(0 19.987)">
+        <path id="Path_9078" data-name="Path 9078" class="cls-3" d="M214.817,180.222a4.227,4.227,0,0,0-4.181-3.608H204.8a4.228,4.228,0,0,0-4.176,3.608l-3.2-.483a7.465,7.465,0,0,1,7.376-6.363h5.834a7.465,7.465,0,0,1,7.383,6.363Z" transform="translate(-162.721 -146.413)"/>
+        <path id="Path_9079" data-name="Path 9079" class="cls-3" d="M225.426,102.76a6.52,6.52,0,1,1,6.519-6.52A6.527,6.527,0,0,1,225.426,102.76Zm0-9.8a3.283,3.283,0,1,0,3.282,3.283A3.287,3.287,0,0,0,225.426,92.957Z" transform="translate(-180.426 -77.462)"/>
+        <path id="Path_9080" data-name="Path 9080" class="cls-3" d="M349.815,438.6l-3.2-.483a7.464,7.464,0,0,1,7.376-6.363h5.834a7.462,7.462,0,0,1,7.378,6.377l-3.2.467a4.221,4.221,0,0,0-4.174-3.606h-5.834a4.226,4.226,0,0,0-4.176,3.608Z" transform="translate(-285.686 -359.371)"/>
+        <path id="Path_9081" data-name="Path 9081" class="cls-3" d="M374.6,361.135a6.52,6.52,0,1,1,6.519-6.519A6.528,6.528,0,0,1,374.6,361.135Zm0-9.8a3.283,3.283,0,1,0,3.282,3.283A3.287,3.287,0,0,0,374.6,351.332Z" transform="translate(-303.376 -290.42)"/>
+        <path id="Path_9082" data-name="Path 9082" class="cls-3" d="M65.65,438.6a4.224,4.224,0,0,0-4.176-3.608H55.641a4.222,4.222,0,0,0-4.174,3.606l-3.2-.467a7.462,7.462,0,0,1,7.378-6.378h5.834a7.463,7.463,0,0,1,7.376,6.363Z" transform="translate(-39.779 -359.37)"/>
+        <path id="Path_9083" data-name="Path 9083" class="cls-3" d="M76.257,361.135a6.52,6.52,0,1,1,6.52-6.519A6.527,6.527,0,0,1,76.257,361.135Zm0-9.8a3.283,3.283,0,1,0,3.283,3.283A3.286,3.286,0,0,0,76.257,351.332Z" transform="translate(-57.479 -290.42)"/>
+        <rect id="Rectangle_2166" data-name="Rectangle 2166" class="cls-3" width="3.238" height="8.97" transform="translate(43.38 40.078)"/>
+        <rect id="Rectangle_2167" data-name="Rectangle 2167" class="cls-3" width="3.238" height="8.973" transform="matrix(-0.5, -0.866, 0.866, -0.5, 38.039, 54.943)"/>
+        <rect id="Rectangle_2168" data-name="Rectangle 2168" class="cls-3" width="8.973" height="3.238" transform="matrix(-0.866, -0.5, 0.5, -0.866, 51.962, 54.94)"/>
+        <path id="Path_9084" data-name="Path 9084" class="cls-3" d="M167.952,57.543A18.778,18.778,0,1,1,186.73,38.765,18.8,18.8,0,0,1,167.952,57.543Zm0-34.318a15.541,15.541,0,1,0,15.54,15.54A15.558,15.558,0,0,0,167.952,23.225Z" transform="translate(-122.952 -19.987)"/>
+        <path id="Path_9085" data-name="Path 9085" class="cls-3" d="M317.126,315.916A18.778,18.778,0,1,1,335.9,297.139,18.8,18.8,0,0,1,317.126,315.916Zm0-34.318a15.54,15.54,0,1,0,15.54,15.54A15.559,15.559,0,0,0,317.126,281.6Z" transform="translate(-245.904 -232.943)"/>
+        <path id="Path_9086" data-name="Path 9086" class="cls-3" d="M18.778,315.917a18.777,18.777,0,1,1,18.778-18.776A18.8,18.8,0,0,1,18.778,315.917Zm0-34.317a15.54,15.54,0,1,0,15.54,15.54A15.558,15.558,0,0,0,18.778,281.6Z" transform="translate(0 -232.945)"/>
+      </g>
+    </g>
+  </g>
+</svg>

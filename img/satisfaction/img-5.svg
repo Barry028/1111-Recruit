@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 558 176">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #136e75;
+      }
+
+      .cls-2 {
+        fill: #73cdd5;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fff;
+        font-size: 18px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansCJKtc-Regular, Noto Sans CJK TC;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #369fa8;
+      }
+
+      .cls-4 {
+        stroke: #136e75;
+        stroke-width: 4px;
+      }
+
+      .cls-6 {
+        font-family: NotoSansCJKtc-Medium, Noto Sans CJK TC;
+        font-weight: 500;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="img-5" transform="translate(-3762 -3116)">
+    <rect id="Rectangle_9227" data-name="Rectangle 9227" class="cls-1" width="558" height="176" transform="translate(3762 3116)"/>
+    <rect id="Rectangle_9218" data-name="Rectangle 9218" class="cls-2" width="210" height="48" transform="translate(3762 3116)"/>
+    <rect id="Rectangle_9221" data-name="Rectangle 9221" class="cls-2" width="170" height="60" transform="translate(3976 3168)"/>
+    <rect id="Rectangle_9224" data-name="Rectangle 9224" class="cls-2" width="170" height="60" transform="translate(3976 3232)"/>
+    <rect id="Rectangle_9222" data-name="Rectangle 9222" class="cls-2" width="170" height="60" transform="translate(4150 3168)"/>
+    <rect id="Rectangle_9225" data-name="Rectangle 9225" class="cls-2" width="170" height="60" transform="translate(4150 3232)"/>
+    <text id="_.360_.542_" data-name=".360***~.542***" class="cls-3" transform="translate(4061 3206)"><tspan x="-65.187" y="0">.360***~.542***</tspan></text>
+    <text id="_.255_.584_" data-name=".255***~.584***" class="cls-3" transform="translate(4235 3206)"><tspan x="-65.187" y="0">.255***~.584***</tspan></text>
+    <text id="_.074_.295_" data-name=".074~.295***" class="cls-3" transform="translate(4061 3270)"><tspan x="-52.578" y="0">.074~.295***</tspan></text>
+    <text id="_.91_.243_" data-name=".91*~.243***" class="cls-3" transform="translate(4235 3270)"><tspan x="-51.786" y="0">.91*~.243***</tspan></text>
+    <g id="Rectangle_9228" data-name="Rectangle 9228" class="cls-4" transform="translate(3971 3184.573) rotate(45)">
+      <rect class="cls-7" width="20" height="20"/>
+      <rect class="cls-8" x="2" y="2" width="16" height="16"/>
+    </g>
+    <g id="Rectangle_9229" data-name="Rectangle 9229" class="cls-4" transform="translate(3971 3248.573) rotate(45)">
+      <rect class="cls-7" width="20" height="20"/>
+      <rect class="cls-8" x="2" y="2" width="16" height="16"/>
+    </g>
+    <rect id="Rectangle_9223" data-name="Rectangle 9223" class="cls-5" width="210" height="60" transform="translate(3762 3168)"/>
+    <text id="組織承諾題組平均" class="cls-6" transform="translate(3849 3206)"><tspan x="-72" y="0">組織承諾題組平均</tspan></text>
+    <rect id="Rectangle_9226" data-name="Rectangle 9226" class="cls-5" width="210" height="60" transform="translate(3762 3232)"/>
+    <text id="組織公民行為題組平均" class="cls-6" transform="translate(3867 3270)"><tspan x="-90" y="0">組織公民行為題組平均</tspan></text>
+    <g id="Rectangle_9230" data-name="Rectangle 9230" class="cls-4" transform="translate(4061 3149.573) rotate(45)">
+      <rect class="cls-7" width="20" height="20"/>
+      <rect class="cls-8" x="2" y="2" width="16" height="16"/>
+    </g>
+    <g id="Rectangle_9231" data-name="Rectangle 9231" class="cls-4" transform="translate(4235 3149.573) rotate(45)">
+      <rect class="cls-7" width="20" height="20"/>
+      <rect class="cls-8" x="2" y="2" width="16" height="16"/>
+    </g>
+    <rect id="Rectangle_9219" data-name="Rectangle 9219" class="cls-5" width="170" height="48" transform="translate(3976 3116)"/>
+    <text id="工作滿意度各題" class="cls-6" transform="translate(4061 3148)"><tspan x="-63" y="0">工作滿意度各題</tspan></text>
+    <rect id="Rectangle_9220" data-name="Rectangle 9220" class="cls-5" width="170" height="48" transform="translate(4150 3116)"/>
+    <text id="組織滿意度各題" class="cls-6" transform="translate(4235 3148)"><tspan x="-63" y="0">組織滿意度各題</tspan></text>
+  </g>
+</svg>
